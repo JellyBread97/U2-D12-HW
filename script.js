@@ -1,5 +1,5 @@
 let generate = document.querySelector(".generate");
-let hideButton = document.querySelectorAll(".hide");
+let hideButton = document.querySelectorAll("#hide");
 const input = document.querySelector("#searchInput");
 
 const options = {
