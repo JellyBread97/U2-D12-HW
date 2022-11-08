@@ -8,7 +8,7 @@ const options = {
   },
 };
 
-loadPics = (photos) => {
+const loadPics = (photos) => {
   generate.innerHTML = "";
   for (let photo of photos) {
     generate.innerHTML += `
