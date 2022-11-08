@@ -66,7 +66,7 @@ const hideCard = (e) => {
   e.path[5].style.display = "none";
 };
 
-for (btn of hideBtn) {
+for (btn of hideButton) {
   btn.addEventListener("click", hideCard);
 }
 
